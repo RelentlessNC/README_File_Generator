@@ -11,11 +11,11 @@ my description
 
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](usage)
-- [License](license)
-- [Contributing](contributing)
-- [Tests](tests)
-- [Questions](questions)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
