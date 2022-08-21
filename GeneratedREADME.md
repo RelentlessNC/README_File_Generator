@@ -5,7 +5,7 @@
 ## Description
 
 <a name="description"></a>
-my description
+this generates a readme file
 
 ## Table of Contents
 
@@ -20,12 +20,12 @@ my description
 ## Installation
 
 <a name="installation"></a>
-my instructions
+instructions here
 
 ## Usage
 
 <a name="usage"></a>
-program usage
+this is the usage
 
 ## License
 
@@ -35,14 +35,14 @@ This project is covered under the <a href="https://opensource.org/licenses/Apach
 ## Contributing
 
 <a name="contributing"></a>
-how to contribute
+how to contribute instructions here
 
 ## Tests
 
 <a name="tests"></a>
-how to test
+these are test instructions
 
 ## Questions
 
 <a name="questions"></a>
-Direct all questions and input to <a href="https://github.com/RelentlessNC">RelentlessNC</a> by sending an email to <a href="mailto:njconklin1987@gmail.com">njconklin1987@gmail.com </a>.
+Direct all questions and input to <a href="https://github.com/RelentlessNC">RelentlessNC</a> by sending an email to <a href="mailto:njconklin1987@gamil.com">njconklin1987@gamil.com </a>.
