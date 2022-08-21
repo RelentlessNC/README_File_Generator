@@ -10,12 +10,12 @@ function init() {
         .prompt([{
                 type: 'input',
                 name: 'title',
-                message: "Project title: "
+                message: "Title: "
             },
             {
                 type: 'input',
                 name: 'description',
-                message: "Project description: "
+                message: "Description: "
             },
             {
                 type: 'input',
@@ -25,12 +25,12 @@ function init() {
             {
                 type: 'input',
                 name: 'usage',
-                message: "Project usage: "
+                message: "Usage: "
             },
             {
                 type: 'list',
                 name: 'license',
-                message: "Project license: ",
+                message: "License: ",
                 choices: [{
                     key: 'no-badge',
                     name: 'No badge',
@@ -73,17 +73,22 @@ function init() {
             {
                 type: 'input',
                 name: 'tests',
-                message: "Tests: "
+                message: "Test instructions: "
             },
             {
                 type: 'input',
-                name: 'questions',
-                message: "Questions: "
+                name: 'username',
+                message: "GitHub username: "
+            },
+            {
+                type: 'input',
+                name: 'email',
+                message: "email address: "
             },
         ])
 
     .then((answers) => {
-            fs.writeFile('../README2.md', md.generateMarkdown(JSON.stringify(answers)), (err) =>
+            fs.writeFile('../GeneratedREADME.md', md.generateMarkdown(JSON.stringify(answers)), (err) =>
                 err ? console.log(err) : console.log(`Successfully Created`)
             );
 
