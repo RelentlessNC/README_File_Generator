@@ -64,9 +64,8 @@ function generateMarkdown(data) {
     const { title, description, installInstruction, usage, license, contributing, tests, username, email } = JSON.parse(data);
     const licenseSection = renderLicenseSection(license);
     return (`
-${renderLicenseBadge(license)}
-
 # ${title}
+${renderLicenseBadge(license)}
 
 ## Description
 
@@ -82,7 +81,6 @@ ${description}
 - [Contributing](contributing)
 - [Tests](tests)
 - [Questions](questions)
-
 
 ## Installation
 
@@ -113,7 +111,7 @@ ${tests}
 
 <a name="questions"></a>
 Direct all questions and input to <a href="https://github.com/${username}">${username}</a> by sending an email to <a href="mailto:${email}">${email} </a>.
-    `);
+`);
 }
 
 module.exports = { generateMarkdown };
